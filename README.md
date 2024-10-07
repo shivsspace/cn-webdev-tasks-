@@ -24,8 +24,8 @@
 <h2>Step 3 ->Instructions </h2
 <br><b><u>Choose any 1 task from the given options!!!!!</u>
 <br>Fork the Repository
-<br>Create a New Branch in your name 
+<br>Create a Folder in your name 
 <br>Add Your Files and commit your changes 
-<br>Push Your Branch to Your Forked Repository
+<br>Then pull request
 
 <h2>Step 4 ->Kaam pe lago ab
