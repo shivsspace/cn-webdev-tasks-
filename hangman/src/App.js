@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const words = ["Hello", "Bye"];
+  const words = ["Hello", "Bye", "Mississippi", "Coding", "Hangman", "Tech", "Ninja", "Development", "React", "Laptop", "Keyboard", "Tailwind"];
   const [word, setWord] = useState("");
 
   const [board, setBoard] = useState([]);
