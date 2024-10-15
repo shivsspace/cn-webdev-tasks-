@@ -1,0 +1,62 @@
+/* General Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /* Background color for the navbar */
+}
+
+/* Navbar List Styles */
+.navbar-list {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+}
+
+/* Navbar Logo */
+.navbar-logo {
+    margin-right: auto; /* Keeps the logo at the leftmost position */
+}
+
+.logo-image {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Navbar List Item and Link Styles */
+.navbar li {
+    position: relative; /* Needed for positioning of dropdowns if used */
+}
+
+.navbar-list a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+/* Hover and Active Effects */
+.navbar-list a:hover {
+    background-color: #4A90E2; /* Background color on hover */
+}
+
+.navbar-list a:active {
+    transform: scale(0.98); /* Slight shrink effect on click */
+}
+
+/* Align Login/Signup to the Right */
+.navbar-right {
+    margin-left: auto; /* Pushes Login/Signup to the right */
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+}
