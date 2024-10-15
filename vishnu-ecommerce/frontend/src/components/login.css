@@ -1,0 +1,102 @@
+/* login.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.login-outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    width: 350px;
+    padding: 20px 26px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.13);
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    color: #111;
+}
+
+form {
+    margin-bottom: 26px;
+}
+
+.credentials input {
+    width: 100%;
+    height: 31px;
+    padding: 3px 7px;
+    line-height: normal;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+    outline: 0;
+    margin-bottom: 14px;
+    font-size: 13px;
+}
+
+.credentials input:focus {
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+}
+
+button {
+    width: 100%;
+    height: 31px;
+    padding: 0 10px 0 11px;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+    color: #111;
+    font-size: 13px;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #f5d78e, #eeb933);
+}
+
+button:active {
+    background: #f0c14b;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2) inset;
+}
+
+button:focus {
+    outline: none;
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+}
+
+p {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #111;
+}
+
+p a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
